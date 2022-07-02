@@ -31,6 +31,9 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
+html {
+    font-size: 16px;
+}
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
@@ -52,14 +55,14 @@ section.menu{
     align-items: center;
     align-content: flex-end;
     height: 10vh;
-    margin: 0px 153px;
+    margin: 0 10rem;
 
 }
 /*Cabecera y espacios*/
 header.menu__header {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    
     font-weight: 700;
     color: var(--color-titulos);
 }
@@ -68,23 +71,24 @@ header.menu__header {
 section.menu nav ul.menu__list {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
-    width: 750px;
+    width: 45vw;
     
 }
 
 /*Stylo para email nav*/
 section.menu nav ul.menu__list li:nth-child(6) {
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     
 }
 
 /*Sección Title*/
 
 section.title{
-    margin: 0 153px;
-    width: 80%;
+    margin: 0 20rem;
+    
+    width: 50vw;
+
     color: var(--color-titulos);
 
 }
@@ -99,24 +103,27 @@ section.title div.title__div {
 
 /*titulo ppal*/
 section.title div.title__container h2 {
-    font-size: 56px;
+    font-size: 2.8rem;
     font-weight: 700;
-    line-height: 61px;
+    line-height: 3.81rem;
     
 }
 
 /*imagen de perfil*/
 section.title img.title__profile {
-    width: 368px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 23rem;
+    
         
 }
 
 
 section.title div.title__div div.title__container h3 {
-    font-size: 17px;
-    line-height: 23px;
-    width: 600px;
-    margin-bottom: 30px;
+    
+    line-height: 1.5rem;
+    width: 40rem;
+    margin-bottom: 1.9rem;
     
 }
 
@@ -126,34 +133,34 @@ section.title div.title__div div.title__container ul {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 500px;
-    font-size: 16px;
+    width: 31.25rem;
     font-style: normal;
-    line-height: 16px;
+    line-height: 1rem;
            
 }
 
 /*Sección About*/
 
 section.about {
-    padding: 62px 153px;
+    padding: 3.85rem 9.5rem;
     background-color: var(--color-fondo-azul);
 }
 
 /*Container Sección About*/
 section.about div.about__container {
-    width: 700px;
+    width: 46rem;
+
 
 }
 
 section.about h3.about__title {
-    font-size: 32px;
+    font-size: 2rem;
     
 }
 /*textos seccion about*/
 section.about div.about__container p{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 18px;
 }
 
@@ -242,8 +249,8 @@ section.hobbies div.hobbies__box ul {
     margin: 0;
     padding: 0;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.3rem;
     color: var(--color-titulos);
 }
 
@@ -252,63 +259,317 @@ section.hobbies div.hobbies__box ul {
 /* Experiencia Académica*/
 
 section.academic {
-    padding: 64px 0;
+    padding: 4rem;
     background-color: var(--color-fondo-azul);
 
 }
 
 /* Titulo de la seccion*/
 section.academic h2.academic__title{
-    font-size: 32px;
+    font-size: 1.8rem;
     text-align: center;
 
 }
 
 /* Posicion de la seccion*/
 section.academic div.academic__courses{
-    display: flex;
-    justify-content: center;
+    
+    display:flex;
+    justify-content: space-around;
  
 }
 
-section.academic div.academic__course__box{
-   width: 26.6rem;
+section.academic div.academic__courses__box{
+   width: 30rem;
    margin: 0 rem;
 
 }
 
-section.academic div.academic__course__box ul{
-    margin: 32px;
-    padding: 0;
+section.academic div.academic__courses__box ul{
+    margin: 2rem;
+    padding:0rem;
+    width: 25rem
+    height: 20rem;
+   
 
 }
 
-section.academic div.academic__course__box ul li{
-     padding: 0;
-     margin: 32px;
+section.academic div.academic__courses__box ul li{
+     display: flex;
 
+     
+    
 }
 
-div.academic__course__box ul li.academic__courses__item__img{
+div.academic__courses__box ul li.academic__courses__item__img{
+    justify-content: space-around;
+    display: flex;
     background-color: var(--color-cajas);
-    padding: 8%;
+    padding: 30%;
 
 }
 /* experiencia*/
 
-section.experience{
+/*experiencia 1*/
+
+section.experience h2.experience__section__title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.experience div.experience__box {
+
+    display: flex;
+    margin:  0rem 5rem;
 
 }
+
+
+
+section.experience div.experience__box img.experience__img {
+
+   margin: 1.5rem;
+
+}
+div.experience__box div.experience__info  {
+
+    margin-bottom: : 2rem;
+    padding: 9rem 2rem;
+   
+ }
+
+ div.experience__info h2.experience__title  {
+
+    font-size: 1.5rem;
+
+    
+ }
+div.experience__info h3.experience__text  {
+    
+   color: var(--color-titulos);
+
+    font-size: 1rem;
+    
+ }
+
+
+div.experience__info  div.experience__description span.experience__repo a  button.experiencia__botao--repo  {
+    margin: 0.2rem;
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: var(--azul-botones);
+    
+ }
+
+div.experience__info  div.experience__description span.experience__demo a  button.experience__botao--demo  {
+   background-color: var(--azul-botones);
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: white;
+    
+ }
+
+/*experiencia 2*/
+
+
+
+section.experience div.experience__box2 {
+    flex-direction: row-reverse;
+    display: flex;
+    margin:  0rem 5rem;
+
+}
+
+
+
+section.experience div.experience__box2 img.experience__img {
+
+   margin: 1.5rem;
+
+}
+div.experience__box2 div.experience__info  {
+
+    margin-bottom: : 2rem;
+    padding: 9rem 2rem;
+   
+ }
+
+ div.experience__info h2.experience__title  {
+
+    font-size: 1.5rem;
+
+    
+ }
+div.experience__info h3.experience__text  {
+    
+   color: var(--color-titulos);
+
+    font-size: 1rem;
+    
+ }
+
+
+div.experience__info  div.experience__description span.experience__repo a  button.experiencia__botao--repo  {
+    margin: 0.2rem;
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: var(--azul-botones);
+    
+ }
+
+div.experience__info  div.experience__description span.experience__demo a  button.experience__botao--demo  {
+   background-color: var(--azul-botones);
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: white;
+    
+ }
+
+
+
+
+/*experiencia 3*/
+
+
+
+
+
+
+
+
+/*experiencia 4*/
+section.experience div.experience__box4 {
+    flex-direction: row-reverse;
+    display: flex;
+    margin:  0rem 5rem;
+
+}
+
+
+
+section.experience div.experience__box4 img.experience__img {
+
+   margin: 1.5rem;
+
+}
+div.experience__box4 div.experience__info  {
+
+    margin-bottom: : 2rem;
+    padding: 9rem 2rem;
+   
+ }
+
+ div.experience__info h2.experience__title  {
+
+    font-size: 1.5rem;
+
+    
+ }
+div.experience__info h3.experience__text  {
+    
+   color: var(--color-titulos);
+
+    font-size: 1rem;
+    
+ }
+
+
+div.experience__info  div.experience__description span.experience__repo a  button.experiencia__botao--repo  {
+    margin: 0.2rem;
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: var(--azul-botones);
+    
+ }
+
+div.experience__info  div.experience__description span.experience__demo a  button.experience__botao--demo  {
+   background-color: var(--azul-botones);
+    border-radius: 0;
+    width: 7rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: white;
+    
+ }
 
 /*Contacto*/
 
 section.formcontato{
+   
+    background-color: var(--color-fondo-azul);
 
+}
+section.formcontato div.formcontato__contacto{
+    display: flex;
+    padding:  8rem 7rem;
+}
+section.formcontato div img.formcontato__img {
+    
+    width: 24rem;
+    height: 37rem;
+
+}
+
+section.formcontato  div.formcontato__text{
+
+    margin-left: 2rem;
+    
+}
+
+section.formcontato  div.formcontato__text h2{
+   
+    margin: 0;
+    font-size: 2.5rem;
+    
+}
+
+div.formcontato__text h3.formcontato__subtext{
+    color: var(--color-titulos);
+    font-size: 1.1rem;
+}
+
+div.formcontato__text form.formcontato__form {
+    flex-direction: column;
+    display: flex;
+}
+
+div.formcontato__text form.formcontato__form input{
+     
+    border: none;
+    height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+form.formcontato__form textarea.formcontato__textarea{
+    border: none;
+    height: 7rem;
+    margin-bottom: 1.5rem;
+
+}
+
+form.formcontato__form button.formcontato__botao{
+    background-color: var(--azul-botones);
+    border-radius: 0;
+    width: 8rem;
+    height: 3.3rem;
+    border-color: var(--azul-botones);
+    color: white;
 }
 
 /*footeer*/
 
 section.footer{
+    text-align: center
    
 }
 
