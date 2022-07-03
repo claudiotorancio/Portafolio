@@ -139,7 +139,7 @@ section.title div.title__div div.title__container ul {
 /*Sección About*/
 
 section.about {
-    padding: 3.85rem 9rem;
+    padding: 2rem 9rem;
     background-color: var(--color-fondo-azul);
     
 }
@@ -371,11 +371,9 @@ div.experience__info  div.experience__description span.experience__demo a  butto
     
  }
 
+
 /*experiencia 2*/
-
-
-
-section.experience div.experience__box2 {
+section.experience div.experience__box1 {
     flex-direction: row-reverse;
     display: flex;
     margin:  0rem 5rem;
@@ -384,81 +382,12 @@ section.experience div.experience__box2 {
 
 
 
-section.experience div.experience__box2 img.experience__img {
+section.experience div.experience__box1 img.experience__img {
 
    margin: 1.5rem;
 
 }
-div.experience__box2 div.experience__info  {
-
-    margin-bottom: 2rem;
-    padding: 9rem 2rem;
-   
- }
-
- div.experience__info h2.experience__title  {
-
-    font-size: 1.5rem;
-
-    
- }
-div.experience__info h3.experience__text  {
-    
-   color: var(--color-titulos);
-
-    font-size: 1rem;
-    
- }
-
-
-div.experience__info  div.experience__description span.experience__repo a  button.experiencia__botao--repo  {
-    margin: 0.2rem;
-    border-radius: 0;
-    width: 7rem;
-    height: 3.3rem;
-    border-color: var(--azul-botones);
-    color: var(--azul-botones);
-    
- }
-
-div.experience__info  div.experience__description span.experience__demo a  button.experience__botao--demo  {
-   background-color: var(--azul-botones);
-    border-radius: 0;
-    width: 7rem;
-    height: 3.3rem;
-    border-color: var(--azul-botones);
-    color: white;
-    
- }
-
-
-
-
-/*experiencia 3*/
-
-
-
-
-
-
-
-
-/*experiencia 4*/
-section.experience div.experience__box4 {
-    flex-direction: row-reverse;
-    display: flex;
-    margin:  0rem 5rem;
-
-}
-
-
-
-section.experience div.experience__box4 img.experience__img {
-
-   margin: 1.5rem;
-
-}
-div.experience__box4 div.experience__info  {
+div.experience__box1 div.experience__info  {
     
     margin-bottom: 2rem;
     padding: 9rem 2rem;
