@@ -23,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    
 }
 ol, ul,li {
     list-style: none;
@@ -33,6 +34,8 @@ a{
 }
 html {
     font-size: 16px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -97,7 +100,7 @@ section.title{
 
 section.title div.title__div {
     justify-content: space-around;
-    
+    margin-right: 9rem;
     display: flex;
     flex-direction: row-reverse;
     margin-left: 9rem;
